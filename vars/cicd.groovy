@@ -1,7 +1,7 @@
 
 def gitDownload(repo)
 { 
-    git "https://github.com/intelliqittrainings/${repo}.git"
+    git "https://github.com/SrihariGitHub99/${repo}.git"
 }
 def newBuild
    {
