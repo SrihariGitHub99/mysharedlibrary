@@ -1,11 +1,4 @@
-
-def gitDownload(repo)
-{ 
-    git "https://github.com/SrihariGitHub99/${repo}.git"
+def newGit(repo)
+{
+    git "${repo}"
 }
-def newBuild
-   {
-	sh 'mvn package'
-   }
-
-
