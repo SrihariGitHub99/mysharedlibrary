@@ -1,6 +1,6 @@
 def gitDownload(repo)
 {
-	git "https://github.com/SrihariGitHub99/${repo}.git"
+	git "https://github.com/intelliqittrainings/${repo}.git"
 }
 def newBuild()
 {
@@ -9,4 +9,8 @@ def newBuild()
 def newDeploy(jobname,ip,appname)
 {
    sh "scp /var/lib/jenkins/workspace/${jobname}/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/${appname}.war"	
+}
+def gitselenium()
+{
+	
 }
